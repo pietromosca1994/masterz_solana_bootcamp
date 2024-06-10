@@ -1,0 +1,20 @@
+{
+  "name": "spl_token_program",
+  "version": "1.0.0",
+  "description": "typescript solana client",
+  "main": "index.js",
+  "author": "Pietro Mosca",
+  "license": "MIT",
+  "scripts": {
+    "mint": "node mint.js",
+    "nft": "node nft.js"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@metaplex-foundation/umi-uploader-irys": "^0.9.1",
+    "@solana/web3.js": "^1.91.8",
+    "dotenv": "^16.4.5"
+  }
+}
