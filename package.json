@@ -6,7 +6,7 @@
   "author": "Pietro Mosca",
   "license": "MIT",
   "scripts": {
-    "main": "node main.ts"
+    "main": "ts-node main.ts"
   },
   "dependencies": {
     "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
