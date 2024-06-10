@@ -54,7 +54,7 @@ async function main() {
   await mintTo(
       connection,
       payer,
-      new web3.PublicKey(mint.toBase58()),
+      mint,
       payerTokenAccount.address,
       payer.publicKey,
       amount,
@@ -66,8 +66,8 @@ async function main() {
   await transfer(
       connection,
       payer,    
-      receiverTokenAccount.address,
       payerTokenAccount.address,
+      receiverTokenAccount.address,
       payer.publicKey,
       transferAmount
   ),
